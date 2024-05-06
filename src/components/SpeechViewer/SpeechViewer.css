@@ -1,0 +1,18 @@
+.speech-viewer {
+  text-align: center;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.word {
+  padding: 2px 4px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: transparent;
+  transition: all ease-in-out 80ms;
+}
+
+.active-word {
+  color: white;
+  background-color: #6565b7;
+}

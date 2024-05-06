@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+div#root {
+  height: 100%;
+  font-family: Verdana, sans-serif;
+}
+
+.app-header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.app-main {
+  padding: 0 100px;
+  height: calc(100% - 77px - 40px);
+}
+
+.loader {
+  text-align: center;
+}
+
+.section-content {
+  margin: 50px 0;
+}
